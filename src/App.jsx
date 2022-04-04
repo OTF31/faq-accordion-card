@@ -1,7 +1,5 @@
 import { useState } from "react";
 
-import IlustrationWomanMobile from "./assets/illustration-woman-online-mobile.svg";
-import IlustrationWomanDesktop from "./assets/illustration-woman-online-desktop.svg";
 import IconArrowDown from "./assets/icon-arrow-down.svg";
 import { ReactComponent as Icon } from "./assets/illustration-woman-online-mobile.svg";
 
@@ -79,6 +77,7 @@ const App = () => {
               </p>
               <img
                 src={IconArrowDown}
+                alt="Arrow Down"
                 className={`block h-[8px] w-[12px] hover:cursor-pointer ${
                   qOne ? "rotate-180" : "rotate-0"
                 }`}
@@ -108,6 +107,7 @@ const App = () => {
               </p>
               <img
                 src={IconArrowDown}
+                alt="Arrow Down"
                 className={`block h-[8px] w-[12px] hover:cursor-pointer ${
                   qTwo ? "rotate-180" : "rotate-0"
                 }`}
@@ -137,6 +137,7 @@ const App = () => {
               </p>
               <img
                 src={IconArrowDown}
+                alt="Arrow Down"
                 className={`block h-[8px] w-[12px] hover:cursor-pointer ${
                   qThree ? "rotate-180" : "rotate-0"
                 }`}
@@ -166,6 +167,7 @@ const App = () => {
               </p>
               <img
                 src={IconArrowDown}
+                alt="Arrow Down"
                 className={`block h-[8px] w-[12px] hover:cursor-pointer ${
                   qFour ? "rotate-180" : "rotate-0"
                 }`}
@@ -195,6 +197,7 @@ const App = () => {
               </p>
               <img
                 src={IconArrowDown}
+                alt="Arrow Down"
                 className={`block h-[8px] w-[12px] hover:cursor-pointer ${
                   qFive ? "rotate-180" : "rotate-0"
                 }`}
