@@ -62,7 +62,7 @@ const App = () => {
             className="relative bottom-[115px] drop-shadow-[0px_30px_0px_rgba(192,192,192,0.4)] lg:bottom-[10px] lg:right-[60px] lg:h-[390px] lg:w-[430px]"
           />
 
-          <div className="lg- flex w-full flex-col gap-4 lg:w-[430px] lg:px-8">
+          <div className="flex w-full flex-col gap-4 lg:w-[430px] lg:px-8">
             <h1 className="-mt-[72px] mb-[17px] text-center text-3xl font-bold lg:-mt-[45px] lg:text-left">
               FAQ
             </h1>
