@@ -54,12 +54,12 @@ const App = () => {
 
   return (
     <>
-      <div className="flex min-h-screen min-w-min flex-col items-center justify-center bg-[#AF67E9] px-10 pt-[120px] pb-[50px] lg:pt-[80px]">
-        <div className="flex h-[535px] w-[330px] min-w-[330px] flex-col items-center rounded-3xl bg-white px-7 font-kumbhSans shadow-2xl shadow-[#6565E7] drop-shadow-2xl lg:w-[920px] lg:flex-row lg:justify-between">
+      <div className="flex min-h-screen min-w-full flex-col items-center justify-center bg-gradient-to-b from-[#AE67E9] to-[#6464E6] px-10 pt-[120px] pb-[50px] lg:pt-[80px]">
+        <div className="flex h-[535px] w-[330px] min-w-[330px] flex-col items-center rounded-3xl bg-white px-7 font-kumbhSans lg:w-[920px] lg:flex-row lg:justify-between">
           <Icon
             height={200}
             width={230}
-            className="relative bottom-[115px] lg:bottom-[10px] lg:right-[60px] lg:h-[390px] lg:w-[430px]"
+            className="relative bottom-[115px] drop-shadow-[0px_30px_0px_rgba(192,192,192,0.4)] lg:bottom-[10px] lg:right-[60px] lg:h-[390px] lg:w-[430px]"
           />
 
           <div className="lg- flex w-full flex-col gap-4 lg:w-[430px] lg:px-8">
