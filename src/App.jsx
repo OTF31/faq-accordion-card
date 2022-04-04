@@ -55,7 +55,7 @@ const App = () => {
   return (
     <>
       <div className="flex min-h-screen min-w-full flex-col items-center justify-center bg-gradient-to-b from-[#AE67E9] to-[#6464E6] px-10 pt-[120px] pb-[50px] lg:pt-[80px]">
-        <div className="flex h-[535px] w-[330px] min-w-[330px] flex-col items-center rounded-3xl bg-white px-7 font-kumbhSans lg:w-[920px] lg:flex-row lg:justify-between">
+        <div className="flex h-[535px] w-[330px] min-w-[330px] flex-col items-center rounded-3xl bg-white px-7 font-kumbhSans shadow-[0px_25px_60px_0px_rgba(28,29,52,1)] lg:w-[920px] lg:flex-row lg:justify-between">
           <Icon
             height={200}
             width={230}
