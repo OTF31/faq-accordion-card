@@ -70,8 +70,9 @@ const App = () => {
             <div className="flex items-center justify-between text-[14px]">
               <p
                 className={`${
-                  qOne ? "font-bold" : "font-normal"
-                } text-[#4A4B5E]`}
+                  qOne ? "font-bold" : "font-normal hover:text-[#E0876C]"
+                } text-[#4A4B5E] hover:cursor-pointer`}
+                onClick={() => handleClick(1)}
               >
                 How many team members can I invite?
               </p>
@@ -100,8 +101,9 @@ const App = () => {
             <div className="flex items-center justify-between text-[14px]">
               <p
                 className={`${
-                  qTwo ? "font-bold" : "font-normal"
-                } text-[#4A4B5E]`}
+                  qTwo ? "font-bold" : "font-normal hover:text-[#E0876C]"
+                } text-[#4A4B5E] hover:cursor-pointer`}
+                onClick={() => handleClick(2)}
               >
                 What is the maximum file upload size?
               </p>
@@ -130,8 +132,9 @@ const App = () => {
             <div className="flex items-center justify-between text-[14px]">
               <p
                 className={`${
-                  qThree ? "font-bold" : "font-normal"
-                } text-[#4A4B5E]`}
+                  qThree ? "font-bold" : "font-normal hover:text-[#E0876C]"
+                } text-[#4A4B5E] hover:cursor-pointer`}
+                onClick={() => handleClick(3)}
               >
                 How do I reset my password?
               </p>
@@ -160,8 +163,9 @@ const App = () => {
             <div className="flex items-center justify-between text-[14px]">
               <p
                 className={`${
-                  qFour ? "font-bold" : "font-normal"
-                } text-[#4A4B5E]`}
+                  qFour ? "font-bold" : "font-normal hover:text-[#E0876C]"
+                } text-[#4A4B5E] hover:cursor-pointer`}
+                onClick={() => handleClick(4)}
               >
                 Can I cancel my subscription?
               </p>
@@ -190,8 +194,9 @@ const App = () => {
             <div className="flex items-center justify-between text-[14px]">
               <p
                 className={`${
-                  qFive ? "font-bold" : "font-normal"
-                } text-[#4A4B5E]`}
+                  qFive ? "font-bold" : "font-normal hover:text-[#E0876C]"
+                } text-[#4A4B5E] hover:cursor-pointer`}
+                onClick={() => handleClick(5)}
               >
                 Do you provide additional support?
               </p>
