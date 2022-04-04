@@ -56,13 +56,19 @@ const App = () => {
 
   return (
     <>
-      <div className="flex min-h-screen flex-col items-center justify-center bg-[#AF67E9] pt-[120px] pb-[50px] shadow-[#6565E7]">
-        <div className="flex h-[535px] w-[330px] flex-col items-center rounded-3xl bg-white px-7 font-kumbhSans drop-shadow-2xl">
-          <Icon height={200} width={230} className="relative bottom-[115px]" />
-          <h1 className="-mt-16 mb-7 text-center text-3xl font-bold">FAQ</h1>
+      <div className="flex min-h-screen min-w-min flex-col items-center justify-center bg-[#AF67E9] px-10 pt-[120px] pb-[50px] lg:pt-[80px]">
+        <div className="flex h-[535px] w-[330px] min-w-[330px] flex-col items-center rounded-3xl bg-white px-7 font-kumbhSans shadow-2xl shadow-[#6565E7] drop-shadow-2xl lg:w-[920px] lg:flex-row lg:justify-between">
+          <Icon
+            height={200}
+            width={230}
+            className="relative bottom-[115px] lg:bottom-[10px] lg:right-[60px] lg:h-[390px] lg:w-[430px]"
+          />
 
-          {/* Question 1 */}
-          <div className="flex w-full flex-col gap-4">
+          <div className="lg- flex w-full flex-col gap-4 lg:w-[430px] lg:px-8">
+            <h1 className="-mt-[72px] mb-[17px] text-center text-3xl font-bold lg:-mt-[45px] lg:text-left">
+              FAQ
+            </h1>
+            {/* Question 1 */}
             <div className="flex items-center justify-between text-[14px]">
               <p
                 className={`${
@@ -80,7 +86,7 @@ const App = () => {
               />
             </div>
             {qOne && (
-              <p className="relative bottom-2 transform pr-[5px] text-[12px] text-[#787887]">
+              <p className="relative bottom-2 transform pr-[5px] text-[12px] text-[#787887] lg:pr-[30px]">
                 You can invite up to 2 additional users on the Free plan. There
                 is no limit on team members for the Premium plan.
               </p>
@@ -109,7 +115,7 @@ const App = () => {
               />
             </div>
             {qTwo && (
-              <p className="relative bottom-2 transform pr-[5px] text-[12px] text-[#787887]">
+              <p className="relative bottom-2 transform pr-[5px] text-[12px] text-[#787887] lg:pr-[30px]">
                 No more than 2GB. All files in your account must fit your
                 allotted storage space.
               </p>
@@ -138,7 +144,7 @@ const App = () => {
               />
             </div>
             {qThree && (
-              <p className="relative bottom-2 transform pr-[5px] text-[12px] text-[#787887]">
+              <p className="relative bottom-2 transform pr-[5px] text-[12px] text-[#787887] lg:pr-[30px]">
                 Click “Forgot password” from the login page or “Change password”
                 from your profile page. A reset link will be emailed to you.
               </p>
@@ -167,7 +173,7 @@ const App = () => {
               />
             </div>
             {qFour && (
-              <p className="relative bottom-2 transform pr-[5px] text-[12px] text-[#787887]">
+              <p className="relative bottom-2 transform pr-[5px] text-[12px] text-[#787887] lg:pr-[30px]">
                 Yes! Send us a message and we'll process your request no
                 questions asked.
               </p>
@@ -196,7 +202,7 @@ const App = () => {
               />
             </div>
             {qFive && (
-              <p className="relative bottom-2 transform pr-[5px] text-[12px] text-[#787887]">
+              <p className="relative bottom-2 transform pr-[5px] text-[12px] text-[#787887] lg:pr-[30px]">
                 Chat and email support is available 24/7. Phone lines are open
                 during normal business hours.
               </p>
