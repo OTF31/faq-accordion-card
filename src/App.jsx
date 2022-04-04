@@ -63,7 +63,7 @@ const App = () => {
           />
 
           <div
-            role="main"
+            role="article"
             className="flex w-full flex-col gap-4 lg:w-[430px] lg:px-8"
           >
             <h1 className="-mt-[72px] mb-[17px] text-center text-3xl font-bold lg:-mt-[45px] lg:text-left">
