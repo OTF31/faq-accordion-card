@@ -4,7 +4,7 @@ This is a solution to the [FAQ accordion card challenge on Frontend Mentor](http
 
 ---
 
-[See in GitHub Pages](https://denisomarcuyottito.github.io/faq-accordion-card/)
+[See in GitHub Pages](https://OTF31.github.io/faq-accordion-card/)
 
 ![image](https://user-images.githubusercontent.com/75378049/161611689-fbce2b17-04a9-4fe7-b30f-07dbd17a382f.png)
 
